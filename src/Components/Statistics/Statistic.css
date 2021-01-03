@@ -1,0 +1,15 @@
+.statistic {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  background-color: #d8183b;
+  margin: 0.4rem 1rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.statistic__left {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+.singleComponent {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1.5rem;
+}
+.singleComponent > img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.singleComponent__info > button {
+  margin-top: 0.5rem;
+  margin-right: 5px;
+  border-radius: 5px;
+  outline-style: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 4px 6px;
+  border: none;
+  cursor: pointer;
+  color: rgba(1, 99, 163, 0.938);
+  font-weight: 700;
+  background-color: rgba(100, 172, 206, 0.445);
+}
+
+.singleComponent__info > h5 {
+  color: rgb(59, 59, 59);
+}

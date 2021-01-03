@@ -1,0 +1,10 @@
+.feature__imgBox > img {
+  width: 100%;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.feed__featuresList {
+  display: flex;
+}

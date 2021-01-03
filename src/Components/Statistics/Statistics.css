@@ -1,0 +1,16 @@
+.statistics {
+  background-color: #fff;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+}
+
+.statistics > h4 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1rem;
+  padding: 1rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}

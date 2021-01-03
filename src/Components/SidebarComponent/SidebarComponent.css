@@ -1,0 +1,28 @@
+.sidebarComponent {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.sidebarComponent > h4 {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1.5rem;
+}
+
+.sidebarComponent__tag {
+  margin: 3px;
+  border-radius: 5px;
+  outline-style: none;
+  padding: 5px 7px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  background-color: rgb(1, 145, 1);
+}
+
+.sidebarComponent__tag:hover {
+  background-color: rgb(4, 87, 4);
+}

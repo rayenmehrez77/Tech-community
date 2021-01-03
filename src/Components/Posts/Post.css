@@ -1,0 +1,33 @@
+.post {
+  display: flex;
+  margin-bottom: 2rem;
+  margin: 2rem;
+}
+
+.post > img {
+  width: 8rem;
+  height: 6rem;
+  object-fit: cover;
+  margin-right: 2rem;
+  border-radius: 10px;
+}
+
+.post__info > span {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.post__info > p > a {
+  color: red;
+  font-size: 12px;
+}
+
+.post__info > h4 {
+  color: rgb(15, 15, 15);
+}
+
+.post__info > p {
+  color: rgb(37, 37, 37);
+  font-weight: 600;
+}

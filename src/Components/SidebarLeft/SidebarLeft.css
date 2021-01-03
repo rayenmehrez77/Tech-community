@@ -1,0 +1,34 @@
+.sidebarLeft {
+  flex: 0.2;
+  min-height: 80vh;
+}
+
+.sidebarLeft__inputBox {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+}
+.sidebarLeft__inputBox > input {
+  height: 1.8rem;
+  border: none;
+  background-color: rgb(236, 236, 236);
+  padding-left: 0.3rem;
+  outline-style: none;
+  border-radius: 5px;
+}
+
+.sidebarLeft__btn {
+  border: none;
+  padding: 0.42rem 0.7rem;
+  margin-left: 0.3rem;
+  display: inline-block;
+  outline-style: none;
+  cursor: pointer;
+  background-color: rgba(0, 140, 255, 0.986);
+  font-weight: 700;
+  border-radius: 5px;
+  color: #fff;
+}

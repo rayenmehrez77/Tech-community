@@ -1,0 +1,47 @@
+.signIn {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.signIn > h4 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1rem;
+  padding: 1rem;
+}
+
+.signIn__content {
+  padding: 1rem;
+}
+
+.signIn__content > input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.7rem;
+  background-color: rgb(245, 245, 245);
+  border-radius: 8px;
+  outline-style: none;
+  border: none;
+}
+
+.signIn__content > span > input[type="checkbox"] {
+  margin-right: 0.3rem;
+}
+
+.signIn__content > button {
+  width: 8rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border: none;
+  outline-style: none;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+  margin: 0.5rem 0;
+  background-color: rgb(35, 149, 219);
+}
+
+.lostPassword {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

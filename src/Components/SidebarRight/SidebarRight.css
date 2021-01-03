@@ -1,0 +1,44 @@
+.sidebarRight {
+  flex: 0.2;
+}
+
+.sidebarRight__topics,
+.sidebarRight__replies,
+.sidebarRight__online-now {
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.sidebarRight__topics > h4,
+.sidebarRight__replies > h4,
+.sidebarRight__online-now > h4 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1rem;
+  padding: 1rem;
+}
+
+.sidebarRight__online-now > p {
+  padding: 1rem;
+  font-size: 12px;
+  color: #666;
+}
+
+.sidebarRight__topics-info,
+.sidebarRight__replies-info {
+  padding: 1rem;
+}
+
+.sidebarRight__topics-info > p,
+.sidebarRight__replies-info > p {
+  padding: 0.3rem;
+  font-weight: 600;
+  font-size: 13px;
+  color: rgb(32, 32, 32);
+}
+
+.sidebarRight__topics-info > p > span,
+.sidebarRight__replies-info > p > span {
+  color: #666;
+  font-size: 10px;
+}
